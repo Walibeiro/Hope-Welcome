@@ -23,7 +23,7 @@ function UpdateRecentFiles(FileNames) {
       LinkElement.addEventListener("click",function () {
          var ItemFileName = "";
          ItemFileName = this.textContent
-         HostApplication.LoadProject(ItemFileName);
+         Hope.LoadProject(ItemFileName);
       },false);
       ImageElement = document.createElement("img");
       ImageElement.src = "Images\/OpenProject.png";
