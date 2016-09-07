@@ -1,0 +1,61 @@
+/* Standard elements */
+body {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  font-family: Segoe UI, Verdana, Geneva, sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 4px;
+}
+
+li {
+  padding: 4px 0px;
+}
+
+img {
+  padding-right: 4px;
+}
+
+hr {
+  height: 1px;
+  width: 200px;
+  margin: 0;
+  background-color: #888;
+  border: none;
+}
+
+/* Custom elements */
+.Bar {
+  background-color: #000;
+  color: #FFF;
+}
+
+.HeaderBar {
+  margin: 0;
+  padding: 8px;
+}
+
+.Band {
+  display: flex;
+}
+
+.Menu {
+  margin: 0;
+  padding: 8px 0px 8px 32px;
+}
