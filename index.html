@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+  <meta charset="UTF-8" />
+	<title>Welcome Page</title>
+  <link rel="stylesheet" type="text/css" href="main.css"/></head>
+</head>
+<body>
+  <div id="HeaderBar" class="HeaderBar Bar"><img src=Images/Icon.svg height="64px" /><h1>HOPE - Object-Pascal Environment</h1></div>
+  <div id="TopBand" class="TopBand Band">
+    <div id="ProjectMenu" class="ProjectMenu Menu">
+      <h2>Project</h2>
+      <hr />
+      <ul>
+        <li><img src=Images/ProjectNew.png /><a onclick="HostApplication.NewProject()" href="#">Create a new project</a></li>
+        <li><img src=Images/ProjectOpen.png /><a onclick="HostApplication.OpenProject()" href="#">Open an existing project</a></li>
+        <li><img src=Images/ProjectClose.png /><a onclick="HostApplication.CloseProject()" href="#">Close the current projects</a></li>
+      </ul>        
+    </div>
+  </div>
+  <div id="InformationBand" class="InformationBand Band">
+  </div>
+  <div id="RecentBand" class="RecentBand Band">
+    <div id="RecentMenu" class="RecentMenu Menu">
+      <h2>Recent Projects</h2>
+      <hr />
+      <ul id="RecentList">
+      </ul>        
+    </div>
+  </div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

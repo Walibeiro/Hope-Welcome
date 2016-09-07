@@ -30,6 +30,7 @@ li {
 
 img {
   padding-right: 4px;
+  margin: auto 1em;
 }
 
 hr {
@@ -42,13 +43,14 @@ hr {
 
 /* Custom elements */
 .Bar {
-  background-color: #000;
+  background: radial-gradient(at top, #766b92, #2d224a);
   color: #FFF;
 }
 
 .HeaderBar {
   margin: 0;
   padding: 8px;
+  display: flex;
 }
 
 .Band {
