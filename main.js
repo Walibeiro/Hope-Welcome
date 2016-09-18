@@ -26,7 +26,7 @@ function UpdateRecentFiles(FileNames) {
          Hope.LoadProject(ItemFileName);
       },false);
       ImageElement = document.createElement("img");
-      ImageElement.src = "Images\/OpenProject.png";
+      ImageElement.src = "Images\/ProjectOpen.png";
       ListElement.appendChild(ImageElement);
       ListElement.appendChild(LinkElement);
       Container.appendChild(ListElement);
